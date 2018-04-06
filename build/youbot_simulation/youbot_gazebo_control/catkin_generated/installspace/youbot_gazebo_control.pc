@@ -1,0 +1,8 @@
+prefix=/home/ngatran/Desktop/srv_ws/install
+
+Name: youbot_gazebo_control
+Description: Description of youbot_gazebo_control
+Version: 0.8.0
+Cflags: 
+Libs: -L/home/ngatran/Desktop/srv_ws/install/lib 
+Requires: 

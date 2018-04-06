@@ -1,0 +1,2 @@
+gazebo_controller:service_demo:turtle_controll:youbot_description:youbot_simulation/youbot_gazebo_control:youbot_simulation/youbot_gazebo_robot:youbot_simulation/youbot_gazebo_worlds:youbot_simulation/youbot_simulation
+-DCATKIN_DEVEL_PREFIX=/home/ngatran/Desktop/srv_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ngatran/Desktop/srv_ws/install -G Unix Makefiles

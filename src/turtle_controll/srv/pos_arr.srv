@@ -1,0 +1,4 @@
+int32[5] x
+int32[5] y
+---
+bool res

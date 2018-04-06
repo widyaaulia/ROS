@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim" required="true" />
+
+	<node pkg="turtle_controll" type="turtle_client.py" output="screen" name="turtle_client" required="true" />
+
+	<node pkg="turtle_controll" type="turtle_server.py" output="screen" name="turtle_server" required="true" />
+
+</launch>

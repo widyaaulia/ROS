@@ -1,0 +1,8 @@
+prefix=/home/ngatran/Desktop/srv_ws/devel
+
+Name: gazebo_controller
+Description: Description of gazebo_controller
+Version: 0.0.0
+Cflags: -I/home/ngatran/Desktop/srv_ws/devel/include
+Libs: -L/home/ngatran/Desktop/srv_ws/devel/lib 
+Requires: 

@@ -1,0 +1,7 @@
+int64 a
+int64 b
+---
+int64 sum_2ints
+int64 mul_2ints
+int64 sub_2ints
+float64 div_2ints
