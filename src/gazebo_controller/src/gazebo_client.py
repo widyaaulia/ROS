@@ -21,7 +21,7 @@ if __name__=='__main__':
 
     while not rospy.is_shutdown():
         try:
-            x_str=raw_input("Enter at least4 int value for x: ")
+            x_str=raw_input("Enter 4 int value for x: ")
             x = [int(x_val) for x_val in x_str.split()]
         except ValueError:
             rospy.logerr("Invalid input")

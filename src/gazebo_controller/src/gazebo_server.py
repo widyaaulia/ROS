@@ -7,6 +7,7 @@ import tf
 from gazebo_controller.srv import position
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
+import time
 
 class server:
     def __init__(self):
@@ -137,6 +138,7 @@ class server:
         self.target_vel.angular.z = 0.0
         self.target_vel_pub.publish(n.target_vel)
         print "Success"
+        time.sleep(2)
     
     # Move robot to all 4 target positions
     def func_move(self,request):
