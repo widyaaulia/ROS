@@ -18,7 +18,7 @@ class server:
         rospy.loginfo("Server initiated")
 
         # Tolerance in term of postion and angle
-        self.pos_tolerant = 0.15
+        self.pos_tolerant = 0.2
         self.ang_tolerant = 0.01
 
         # Create current and target position
@@ -69,7 +69,7 @@ class server:
 
     # Move robot to target x -y
     def position_move(self,target_x,target_y):
-        self.target_vel.linear.x = 0.3
+        self.target_vel.linear.x = 0.5
         self.target_vel.angular.z = 0
         self.target_vel_pub.publish(n.target_vel)
         while True:
@@ -138,7 +138,7 @@ class server:
         self.target_vel.angular.z = 0.0
         self.target_vel_pub.publish(n.target_vel)
         print "Success"
-        time.sleep(2)
+        time.sleep(5)
     
     # Move robot to all 4 target positions
     def func_move(self,request):
